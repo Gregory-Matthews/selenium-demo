@@ -14,6 +14,7 @@ public class App
 
  System.setProperty("webdriver.gecko.driver","./geckodriver");
  FirefoxOptions options = new FirefoxOptions();
+ options.addArguments("--headless");
  WebDriver driver = new FirefoxDriver(options);
 
  System.out.println("Hi, Welcome to Edureka's YouTube Live session on Selenium WebDriver");
