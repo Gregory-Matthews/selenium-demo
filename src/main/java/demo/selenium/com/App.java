@@ -12,7 +12,7 @@ public class App
  public static void main(String[] args) {
 
 
- System.setProperty("webdriver.gecko.driver","/home/centos/geckodriver");
+ System.setProperty("webdriver.gecko.driver","./geckodriver");
  FirefoxOptions options = new FirefoxOptions();
  WebDriver driver = new FirefoxDriver(options);
 
